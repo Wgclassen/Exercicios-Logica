@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8293C8D25D872F90010BE28 /* Exercicio12.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8293C8C25D872F90010BE28 /* Exercicio12.swift */; };
+		D8293C9025D8784F0010BE28 /* Exercicio13.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8293C8F25D8784F0010BE28 /* Exercicio13.swift */; };
+		D8293C9325D87C600010BE28 /* Exercicio14.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8293C9225D87C600010BE28 /* Exercicio14.swift */; };
+		D8293C9625D87F080010BE28 /* Exercicio15.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8293C9525D87F080010BE28 /* Exercicio15.swift */; };
+		D8293C9925D8821D0010BE28 /* Exercicio16.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8293C9825D8821D0010BE28 /* Exercicio16.swift */; };
+		D8293C9C25D8851B0010BE28 /* Exercicio17.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8293C9B25D8851B0010BE28 /* Exercicio17.swift */; };
+		D8293CA325D88C0C0010BE28 /* Exercicio18.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8293CA225D88C0C0010BE28 /* Exercicio18.swift */; };
+		D8293CA625D8975A0010BE28 /* Exercicio19.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8293CA525D8975A0010BE28 /* Exercicio19.swift */; };
+		D8293CA925D89D5C0010BE28 /* Exercicio20.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8293CA825D89D5C0010BE28 /* Exercicio20.swift */; };
+		D86CF1B125D6FAF700314488 /* Exercicio05.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CF1B025D6FAF700314488 /* Exercicio05.swift */; };
+		D86CF1B825D7029E00314488 /* Exercicio09.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CF1B725D7029E00314488 /* Exercicio09.swift */; };
+		D86CF1BC25D7089900314488 /* Exercicio10.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CF1BB25D7089900314488 /* Exercicio10.swift */; };
+		D86CF1BF25D70BDB00314488 /* Exercicio07.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CF1BE25D70BDB00314488 /* Exercicio07.swift */; };
+		D86CF1C225D70DCC00314488 /* Exercicio08.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CF1C125D70DCC00314488 /* Exercicio08.swift */; };
+		D86CF1C725D70F1400314488 /* Exercicio11.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CF1C625D70F1400314488 /* Exercicio11.swift */; };
+		D88D7E5F25D6F4E000E777DA /* SwiftBol_LogicaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88D7E5E25D6F4E000E777DA /* SwiftBol_LogicaApp.swift */; };
+		D88D7E6125D6F4E000E777DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88D7E6025D6F4E000E777DA /* ContentView.swift */; };
+		D88D7E6325D6F4E100E777DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88D7E6225D6F4E100E777DA /* Assets.xcassets */; };
+		D88D7E6625D6F4E100E777DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88D7E6525D6F4E100E777DA /* Preview Assets.xcassets */; };
+		D88D7E7025D6F68B00E777DA /* Exercicio01.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88D7E6F25D6F68B00E777DA /* Exercicio01.swift */; };
+		D88D7E7325D6F75300E777DA /* Exercicio02.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88D7E7225D6F75300E777DA /* Exercicio02.swift */; };
+		D88D7E7625D6F82C00E777DA /* Exercicio03.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88D7E7525D6F82C00E777DA /* Exercicio03.swift */; };
+		D88D7E7925D6F86000E777DA /* Exercicio04.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88D7E7825D6F86000E777DA /* Exercicio04.swift */; };
+		D88D7E7F25D6F9EB00E777DA /* Exercicio06.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88D7E7E25D6F9EB00E777DA /* Exercicio06.swift */; };
+		D8B2BB4C25E0510D005A5974 /* Exercicio45.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B2BB4B25E0510D005A5974 /* Exercicio45.swift */; };
+		D8B2BB4F25E0513D005A5974 /* Exercicio46.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B2BB4E25E0513D005A5974 /* Exercicio46.swift */; };
+		D8B2BB5225E05162005A5974 /* Exercicio76.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B2BB5125E05162005A5974 /* Exercicio76.swift */; };
+		D8B2BB5525E0517E005A5974 /* Exercicio98.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B2BB5425E0517E005A5974 /* Exercicio98.swift */; };
+		D8B2BB5825E051AB005A5974 /* Exercicio30.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B2BB5725E051AB005A5974 /* Exercicio30.swift */; };
+		D8B2BB5B25E051EB005A5974 /* Exercicio60.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B2BB5A25E051EB005A5974 /* Exercicio60.swift */; };
+		D8B2BB5E25E05214005A5974 /* Exercicio81.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B2BB5D25E05214005A5974 /* Exercicio81.swift */; };
+		D8B2BB6125E05230005A5974 /* Exercicio88.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B2BB6025E05230005A5974 /* Exercicio88.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D8293C8C25D872F90010BE28 /* Exercicio12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio12.swift; sourceTree = "<group>"; };
+		D8293C8F25D8784F0010BE28 /* Exercicio13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio13.swift; sourceTree = "<group>"; };
+		D8293C9225D87C600010BE28 /* Exercicio14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio14.swift; sourceTree = "<group>"; };
+		D8293C9525D87F080010BE28 /* Exercicio15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio15.swift; sourceTree = "<group>"; };
+		D8293C9825D8821D0010BE28 /* Exercicio16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio16.swift; sourceTree = "<group>"; };
+		D8293C9B25D8851B0010BE28 /* Exercicio17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio17.swift; sourceTree = "<group>"; };
+		D8293CA225D88C0C0010BE28 /* Exercicio18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio18.swift; sourceTree = "<group>"; };
+		D8293CA525D8975A0010BE28 /* Exercicio19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio19.swift; sourceTree = "<group>"; };
+		D8293CA825D89D5C0010BE28 /* Exercicio20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio20.swift; sourceTree = "<group>"; };
+		D86CF1B025D6FAF700314488 /* Exercicio05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio05.swift; sourceTree = "<group>"; };
+		D86CF1B725D7029E00314488 /* Exercicio09.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio09.swift; sourceTree = "<group>"; };
+		D86CF1BB25D7089900314488 /* Exercicio10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio10.swift; sourceTree = "<group>"; };
+		D86CF1BE25D70BDB00314488 /* Exercicio07.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio07.swift; sourceTree = "<group>"; };
+		D86CF1C125D70DCC00314488 /* Exercicio08.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio08.swift; sourceTree = "<group>"; };
+		D86CF1C625D70F1400314488 /* Exercicio11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio11.swift; sourceTree = "<group>"; };
+		D88D7E5B25D6F4E000E777DA /* SwiftBol Logica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftBol Logica.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88D7E5E25D6F4E000E777DA /* SwiftBol_LogicaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBol_LogicaApp.swift; sourceTree = "<group>"; };
+		D88D7E6025D6F4E000E777DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D88D7E6225D6F4E100E777DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D88D7E6525D6F4E100E777DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D88D7E6725D6F4E100E777DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88D7E6F25D6F68B00E777DA /* Exercicio01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio01.swift; sourceTree = "<group>"; };
+		D88D7E7225D6F75300E777DA /* Exercicio02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio02.swift; sourceTree = "<group>"; };
+		D88D7E7525D6F82C00E777DA /* Exercicio03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio03.swift; sourceTree = "<group>"; };
+		D88D7E7825D6F86000E777DA /* Exercicio04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio04.swift; sourceTree = "<group>"; };
+		D88D7E7E25D6F9EB00E777DA /* Exercicio06.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio06.swift; sourceTree = "<group>"; };
+		D8B2BB4B25E0510D005A5974 /* Exercicio45.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio45.swift; sourceTree = "<group>"; };
+		D8B2BB4E25E0513D005A5974 /* Exercicio46.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio46.swift; sourceTree = "<group>"; };
+		D8B2BB5125E05162005A5974 /* Exercicio76.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio76.swift; sourceTree = "<group>"; };
+		D8B2BB5425E0517E005A5974 /* Exercicio98.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio98.swift; sourceTree = "<group>"; };
+		D8B2BB5725E051AB005A5974 /* Exercicio30.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio30.swift; sourceTree = "<group>"; };
+		D8B2BB5A25E051EB005A5974 /* Exercicio60.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio60.swift; sourceTree = "<group>"; };
+		D8B2BB5D25E05214005A5974 /* Exercicio81.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio81.swift; sourceTree = "<group>"; };
+		D8B2BB6025E05230005A5974 /* Exercicio88.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio88.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D88D7E5825D6F4E000E777DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D88D7E5225D6F4E000E777DA = {
+			isa = PBXGroup;
+			children = (
+				D88D7E6E25D6F65600E777DA /* Logica */,
+				D88D7E5D25D6F4E000E777DA /* SwiftBol Logica */,
+				D88D7E5C25D6F4E000E777DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D88D7E5C25D6F4E000E777DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D88D7E5B25D6F4E000E777DA /* SwiftBol Logica.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D88D7E5D25D6F4E000E777DA /* SwiftBol Logica */ = {
+			isa = PBXGroup;
+			children = (
+				D88D7E5E25D6F4E000E777DA /* SwiftBol_LogicaApp.swift */,
+				D88D7E6025D6F4E000E777DA /* ContentView.swift */,
+				D88D7E6225D6F4E100E777DA /* Assets.xcassets */,
+				D88D7E6725D6F4E100E777DA /* Info.plist */,
+				D88D7E6425D6F4E100E777DA /* Preview Content */,
+			);
+			path = "SwiftBol Logica";
+			sourceTree = "<group>";
+		};
+		D88D7E6425D6F4E100E777DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D88D7E6525D6F4E100E777DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D88D7E6E25D6F65600E777DA /* Logica */ = {
+			isa = PBXGroup;
+			children = (
+				D88D7E6F25D6F68B00E777DA /* Exercicio01.swift */,
+				D88D7E7225D6F75300E777DA /* Exercicio02.swift */,
+				D88D7E7525D6F82C00E777DA /* Exercicio03.swift */,
+				D88D7E7825D6F86000E777DA /* Exercicio04.swift */,
+				D86CF1B025D6FAF700314488 /* Exercicio05.swift */,
+				D88D7E7E25D6F9EB00E777DA /* Exercicio06.swift */,
+				D86CF1BE25D70BDB00314488 /* Exercicio07.swift */,
+				D86CF1C125D70DCC00314488 /* Exercicio08.swift */,
+				D86CF1B725D7029E00314488 /* Exercicio09.swift */,
+				D86CF1BB25D7089900314488 /* Exercicio10.swift */,
+				D86CF1C625D70F1400314488 /* Exercicio11.swift */,
+				D8293C8C25D872F90010BE28 /* Exercicio12.swift */,
+				D8293C8F25D8784F0010BE28 /* Exercicio13.swift */,
+				D8293C9225D87C600010BE28 /* Exercicio14.swift */,
+				D8293C9525D87F080010BE28 /* Exercicio15.swift */,
+				D8293C9825D8821D0010BE28 /* Exercicio16.swift */,
+				D8293C9B25D8851B0010BE28 /* Exercicio17.swift */,
+				D8293CA225D88C0C0010BE28 /* Exercicio18.swift */,
+				D8293CA525D8975A0010BE28 /* Exercicio19.swift */,
+				D8293CA825D89D5C0010BE28 /* Exercicio20.swift */,
+				D8B2BB5725E051AB005A5974 /* Exercicio30.swift */,
+				D8B2BB4B25E0510D005A5974 /* Exercicio45.swift */,
+				D8B2BB4E25E0513D005A5974 /* Exercicio46.swift */,
+				D8B2BB5A25E051EB005A5974 /* Exercicio60.swift */,
+				D8B2BB5125E05162005A5974 /* Exercicio76.swift */,
+				D8B2BB5D25E05214005A5974 /* Exercicio81.swift */,
+				D8B2BB6025E05230005A5974 /* Exercicio88.swift */,
+				D8B2BB5425E0517E005A5974 /* Exercicio98.swift */,
+			);
+			path = Logica;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D88D7E5A25D6F4E000E777DA /* SwiftBol Logica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88D7E6A25D6F4E100E777DA /* Build configuration list for PBXNativeTarget "SwiftBol Logica" */;
+			buildPhases = (
+				D88D7E5725D6F4E000E777DA /* Sources */,
+				D88D7E5825D6F4E000E777DA /* Frameworks */,
+				D88D7E5925D6F4E000E777DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftBol Logica";
+			productName = "SwiftBol Logica";
+			productReference = D88D7E5B25D6F4E000E777DA /* SwiftBol Logica.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D88D7E5325D6F4E000E777DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D88D7E5A25D6F4E000E777DA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = D88D7E5625D6F4E000E777DA /* Build configuration list for PBXProject "SwiftBol Logica" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D88D7E5225D6F4E000E777DA;
+			productRefGroup = D88D7E5C25D6F4E000E777DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D88D7E5A25D6F4E000E777DA /* SwiftBol Logica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D88D7E5925D6F4E000E777DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88D7E6625D6F4E100E777DA /* Preview Assets.xcassets in Resources */,
+				D88D7E6325D6F4E100E777DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D88D7E5725D6F4E000E777DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8293C9925D8821D0010BE28 /* Exercicio16.swift in Sources */,
+				D88D7E6125D6F4E000E777DA /* ContentView.swift in Sources */,
+				D8B2BB4C25E0510D005A5974 /* Exercicio45.swift in Sources */,
+				D88D7E7625D6F82C00E777DA /* Exercicio03.swift in Sources */,
+				D8293CA625D8975A0010BE28 /* Exercicio19.swift in Sources */,
+				D88D7E7325D6F75300E777DA /* Exercicio02.swift in Sources */,
+				D8293C9025D8784F0010BE28 /* Exercicio13.swift in Sources */,
+				D86CF1BF25D70BDB00314488 /* Exercicio07.swift in Sources */,
+				D88D7E5F25D6F4E000E777DA /* SwiftBol_LogicaApp.swift in Sources */,
+				D8B2BB5B25E051EB005A5974 /* Exercicio60.swift in Sources */,
+				D8B2BB4F25E0513D005A5974 /* Exercicio46.swift in Sources */,
+				D86CF1C725D70F1400314488 /* Exercicio11.swift in Sources */,
+				D8293CA325D88C0C0010BE28 /* Exercicio18.swift in Sources */,
+				D86CF1B125D6FAF700314488 /* Exercicio05.swift in Sources */,
+				D86CF1B825D7029E00314488 /* Exercicio09.swift in Sources */,
+				D88D7E7F25D6F9EB00E777DA /* Exercicio06.swift in Sources */,
+				D88D7E7025D6F68B00E777DA /* Exercicio01.swift in Sources */,
+				D8B2BB5E25E05214005A5974 /* Exercicio81.swift in Sources */,
+				D8293C8D25D872F90010BE28 /* Exercicio12.swift in Sources */,
+				D8293CA925D89D5C0010BE28 /* Exercicio20.swift in Sources */,
+				D8293C9625D87F080010BE28 /* Exercicio15.swift in Sources */,
+				D8B2BB6125E05230005A5974 /* Exercicio88.swift in Sources */,
+				D8B2BB5225E05162005A5974 /* Exercicio76.swift in Sources */,
+				D8293C9325D87C600010BE28 /* Exercicio14.swift in Sources */,
+				D86CF1BC25D7089900314488 /* Exercicio10.swift in Sources */,
+				D8B2BB5525E0517E005A5974 /* Exercicio98.swift in Sources */,
+				D8B2BB5825E051AB005A5974 /* Exercicio30.swift in Sources */,
+				D88D7E7925D6F86000E777DA /* Exercicio04.swift in Sources */,
+				D86CF1C225D70DCC00314488 /* Exercicio08.swift in Sources */,
+				D8293C9C25D8851B0010BE28 /* Exercicio17.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D88D7E6825D6F4E100E777DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D88D7E6925D6F4E100E777DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D88D7E6B25D6F4E100E777DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftBol Logica/Preview Content\"";
+				DEVELOPMENT_TEAM = 933PFNFS5J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftBol Logica/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Wclassen.SwiftBol-Logica";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D88D7E6C25D6F4E100E777DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftBol Logica/Preview Content\"";
+				DEVELOPMENT_TEAM = 933PFNFS5J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftBol Logica/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Wclassen.SwiftBol-Logica";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D88D7E5625D6F4E000E777DA /* Build configuration list for PBXProject "SwiftBol Logica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88D7E6825D6F4E100E777DA /* Debug */,
+				D88D7E6925D6F4E100E777DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D88D7E6A25D6F4E100E777DA /* Build configuration list for PBXNativeTarget "SwiftBol Logica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88D7E6B25D6F4E100E777DA /* Debug */,
+				D88D7E6C25D6F4E100E777DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D88D7E5325D6F4E000E777DA /* Project object */;
+}
